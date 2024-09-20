@@ -1,4 +1,4 @@
-class A {
+class Ae {
     public void show() {
         System.out.println("in A show");
     }
@@ -8,7 +8,7 @@ class A {
     }
 }
 
-class B extends A {
+class Be extends Ae {
     @Override
     public void show() {
         System.out.println("in B show");
@@ -17,7 +17,7 @@ class B extends A {
 
 public class MethodOverriding {
     public static void main(String[] args) {
-        A obj = new B(); // Create object of class B, reference of class A
+        Ae obj = new Be(); // Create object of class B, reference of class A
         obj.show(); // This will call B's overridden show() method
     }
 }

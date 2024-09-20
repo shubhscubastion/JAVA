@@ -1,4 +1,4 @@
-class A {
+class Ac {
     public void show() {
         System.out.println("in main show");
     }
@@ -6,7 +6,7 @@ class A {
 
 public class AnonymousInnerClass {
     public static void main(String[] args) {
-        A obj = new A() {
+        Ac obj = new Ac() {
             public void show() {
                 System.out.println("in the Anonymous Inner Class show");
             }

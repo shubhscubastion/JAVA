@@ -1,10 +1,10 @@
-class A{
+class Ab{
     public void showTheDataWhichBelongsToThisClass(){
         System.out.println("in A show");
     }
 }
 
-class B extends A{
+class Bb extends Ab{
     @Override
     public void showTheDataWhichBelongsToThisClass(){
         System.out.println("in B show");
@@ -14,7 +14,7 @@ class B extends A{
 
 public class AnnotationsOver {
     public static void main(String[] args) {
-        B obj = new B();
+        Bb obj = new Bb();
         obj.showTheDataWhichBelongsToThisClass();
     }
 }
